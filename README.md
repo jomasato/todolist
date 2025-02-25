@@ -1,6 +1,7 @@
 # `todolist`
 
 1,はじめに
+
 今回のwaveではシンプルなtodolistアプリを作成しました。
 基本的な機能であるcreate,read,update and delete(CRUD)ができるバックエンドはICPで作成しました。
 また，フロントエンドについては自動で生成されるcandidUIを活用しています。
@@ -14,11 +15,13 @@ Motoko プログラミング言語ガイド（https://internetcomputer.org/docs/
 Motoko 言語クイックリファレンス（https://internetcomputer.org/docs/current/motoko/main/language-manual）
 
 2,基本コマンド
+
 bashCopycd todolist/
 dfx help
 dfx canister --help
 
 3,ローカルでのプロジェクト実行
+
 今回はローカル環境で完結する仕様で作成します。
 
 まずはローカルにおいてInternet Computer（IC）の開発環境においてローカルシミュレーション環境を立ち上げる（レプリカの起動）します
@@ -31,6 +34,7 @@ dfx canister --help
 
 
 4,開発作業
+
 バックエンド canister を変更した場合は、以下のコマンドで新しい Candid インターフェースを生成できます：
 'npm run generate'
 
@@ -39,6 +43,7 @@ dfx canister --help
 これにより、http://localhost:8080 でサーバーが起動し、ポート 4943 のレプリカに API リクエストをプロキシします。
 
 5,フロントエンド環境変数に関する注意
+
 DFX を使用せずにフロントエンドコードをホスティングする場合は、以下のいずれかの調整が必要です：
 
 Webpack を使用している場合は DFX_NETWORK を ic に設定
