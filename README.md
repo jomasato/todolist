@@ -14,11 +14,13 @@ SDK 開発ツール（https://internetcomputer.org/docs/current/developer-docs/s
 Motoko プログラミング言語ガイド（https://internetcomputer.org/docs/current/motoko/main/motoko）
 Motoko 言語クイックリファレンス（https://internetcomputer.org/docs/current/motoko/main/language-manual）
 
+
 2,基本コマンド
 
 bashCopycd todolist/
 dfx help
 dfx canister --help
+
 
 3,ローカルでのプロジェクト実行
 
@@ -41,6 +43,7 @@ dfx canister --help
 フロントエンドの変更を行う場合は、開発サーバーを起動できます：
 'npm start'
 これにより、http://localhost:8080 でサーバーが起動し、ポート 4943 のレプリカに API リクエストをプロキシします。
+
 
 5,フロントエンド環境変数に関する注意
 
